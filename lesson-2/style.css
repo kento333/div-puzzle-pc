@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* clearfix用 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ここから書く */
+.container {
+  height: 450px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.upside {
+  height: 100px;
+  width: 400px;
+  background-color: #141f40;
+}
+
+.midway_left {
+  height: 250px;
+  width: 150px;
+  background-color: #80bfa8;
+  float: left;
+}
+
+.midway_center--top {
+  height: 50px;
+  width: 150px;
+  background-color: #dbd400;
+  float: left;
+}
+
+.midway_right {
+  height: 150px;
+  width: 100px;
+  background-color: #ff9e6b;
+  float: right;
+}
+
+.midway_center--middle {
+  height: 100px;
+  width: 150px;
+  background-color: #0093b7;
+  float: left;
+}
+
+.midway_center--under {
+  height: 100px;
+  width: 250px;
+  background-color: #8c2727;
+  float: left;
+}
+
+.under {
+  height: 100px;
+  width: 400px;
+  background-color: #d98d30;
+  float: left;
+}

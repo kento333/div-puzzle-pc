@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* clearfix用 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ここから書く */
+.container {
+  height: 450px;
+  width: 400px;
+  margin: 0 480px;
+}
+.upside {
+  height: 100px;
+  background-color: #141f40;
+}
+.midway_left {
+  height: 250px;
+  width: 150px;
+  background-color: #80bfa8;
+  float: left;
+}
+.midway_right {
+  height: 250px;
+  width: 250px;
+  background-color: #8c2727;
+  float: left;
+}
+.under {
+  height: 100px;
+  background-color: #d98d30;
+}
