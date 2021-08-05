@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/* ここから書く */
+.container {
+  width: 400px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.top {
+  width: 400px;
+  height: 100px;
+  background-color: #141f40;
+}
+
+.midway_container {
+  display: flex;
+}
+
+.midway_left {
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+}
+
+.midway_container_right {
+  width: 250px;
+  height: 250px;
+}
+
+.midway_right_box {
+  display: flex;
+}
+
+.midway_right_box_left {
+  width: 150px;
+}
+
+.midway_right_box_left_upside {
+  width: 150px;
+  height: 50px;
+  background-color: #dbd400;
+}
+
+.midway_right_box_left_bottom {
+  width: 150px;
+  height: 100px;
+  background-color: #0093b7;
+}
+
+.midway_right_box_right {
+  width: 100px;
+  height: 150px;
+  background-color: #ff9e6b;
+}
+
+.midway_right_box_beneath {
+  width: 250px;
+  height: 100px;
+  background-color: #8c2727;
+}
+
+.under {
+  width: 400px;
+  height: 100px;
+  background-color: #d98d30;
+}
